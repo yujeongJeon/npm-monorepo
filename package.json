@@ -1,0 +1,22 @@
+{
+  "name": "npm-monorepo",
+  "version": "0.0.1",
+  "description": "npm@7 workspace로 모노레포 실습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujeongJeon/npm-monorepo.git"
+  },
+  "keywords": [
+    "monorepo"
+  ],
+  "author": "yujeongJeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yujeongJeon/npm-monorepo/issues"
+  },
+  "homepage": "https://github.com/yujeongJeon/npm-monorepo#readme"
+}
