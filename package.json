@@ -1,5 +1,5 @@
 {
-  "name": "npm-monorepo",
+  "name": "@yujeongJeon/npm-monorepo",
   "version": "0.0.1",
   "description": "npm@7 workspace로 모노레포 실습",
   "main": "index.js",
@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/yujeongJeon/npm-monorepo/issues"
   },
-  "homepage": "https://github.com/yujeongJeon/npm-monorepo#readme"
+  "homepage": "https://github.com/yujeongJeon/npm-monorepo#readme",
+  "workspaces": ["./packages/*"]
 }
