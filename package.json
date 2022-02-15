@@ -14,15 +14,20 @@
     "monorepo"
   ],
   "author": "yujeongJeon",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yujeongJeon/npm-monorepo/issues"
+    "url": "https://github.com/yujeongJeon/npm-monorepo/issues",
+    "email": "workingnewjeong@gmail.com"
   },
   "homepage": "https://github.com/yujeongJeon/npm-monorepo#readme",
   "workspaces": [
     "./packages/*"
   ],
   "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.2",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
     "prettier": "^2.5.1"
   }
 }
