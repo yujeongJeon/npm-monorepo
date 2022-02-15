@@ -1,33 +1,34 @@
 {
-  "name": "@yujeongjeon/npm-monorepo",
-  "version": "0.0.1",
-  "description": "npm@7 workspace로 모노레포 실습",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yujeongJeon/npm-monorepo.git"
-  },
-  "keywords": [
-    "monorepo"
-  ],
-  "author": "yujeongJeon",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yujeongJeon/npm-monorepo/issues",
-    "email": "workingnewjeong@gmail.com"
-  },
-  "homepage": "https://github.com/yujeongJeon/npm-monorepo#readme",
-  "workspaces": [
-    "./packages/*"
-  ],
-  "devDependencies": {
-    "@babel/cli": "^7.17.0",
-    "@babel/core": "^7.17.2",
-    "@babel/preset-env": "^7.16.11",
-    "@babel/preset-react": "^7.16.7",
-    "prettier": "^2.5.1"
-  }
+    "name": "@yujeongjeon/npm-monorepo",
+    "version": "0.0.1",
+    "description": "npm@7 workspace로 모노레포 실습",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prettier:fix": "prettier '**/*.{json,yaml,md,yml}' --write"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yujeongJeon/npm-monorepo.git"
+    },
+    "keywords": [
+        "monorepo"
+    ],
+    "author": "yujeongJeon",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yujeongJeon/npm-monorepo/issues",
+        "email": "workingnewjeong@gmail.com"
+    },
+    "homepage": "https://github.com/yujeongJeon/npm-monorepo#readme",
+    "workspaces": [
+        "./packages/*"
+    ],
+    "devDependencies": {
+        "@babel/cli": "^7.17.0",
+        "@babel/core": "^7.17.2",
+        "@babel/preset-env": "^7.16.11",
+        "@babel/preset-react": "^7.16.7",
+        "prettier": "^2.5.1"
+    }
 }
