@@ -13,5 +13,5 @@ esbuild
         loader: {'.ts': 'ts'},
         plugins: [nodeExternalsPlugin()],
     })
-    .then(() => console.log(`⚡ ${NAME} Done`))
+    .then(() => console.log(`✅ ${NAME} Done`))
     .catch(() => process.exit(1))

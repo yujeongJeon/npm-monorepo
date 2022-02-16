@@ -1,16 +1,30 @@
 {
     "name": "@yujeongjeon/b",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "npm run check-types && node esbuild.config.js",
-        "check-types": "tsc"
+        "check-types": "tsc",
+        "deploy": "npm publish --access public",
+        "version": "npm version"
     },
-    "author": "",
-    "license": "ISC",
     "devDependencies": {
         "@yujeongjeon/a": "^0.0.1"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yujeongJeon/npm-monorepo.git"
+    },
+    "keywords": [
+        "monorepo"
+    ],
+    "author": "yujeongJeon",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yujeongJeon/npm-monorepo/issues",
+        "email": "workingnewjeong@gmail.com"
+    },
+    "homepage": "https://github.com/yujeongJeon/npm-monorepo#readme"
 }

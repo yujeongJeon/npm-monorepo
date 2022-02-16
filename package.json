@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "prettier:fix": "prettier '**/*.{json,yaml,md,yml}' --write"
+        "prettier:fix": "prettier '**/*.{json,yaml,md,yml}' --write",
+        "build:all": "npm run build --workspaces",
+        "deploy:all": "npm run deploy --workspaces"
     },
     "repository": {
         "type": "git",
